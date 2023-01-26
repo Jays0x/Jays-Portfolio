@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Works Page</title>
+    <link rel="icon" href="./Image/JAYS 2-01.png" type="image">
+    <link rel="stylesheet" href="./works.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="hero-work">
+        <div class="glass">
+        <nav>
+            <img src="Image/JAYS 2-01.png">
+            <ul class="nav-link" id="menuList">
+                <li ><a href="/Home/index.html">Home</a></li>
+                <li><a href="/Works/works.html">Works</a></li>
+                <li><a href="/About Page/about.html">About</a></li>
+                <li><a href="https://docs.google.com/document/d/1AV4v6KwxXtSdDauXVlVDanFb5c0fjlgVEgR8aMpPDh0/edit#">Resume</a></li>
+                <li><a href="/Contact Us Page/contact.html">Contact Me</a></li>
+            </ul>
+            <img src="./Image/menu icon2.png" class="menu-icon" onclick="togglemenu()">
+        </nav>
+        <div class="intro">
+            <h1>My Works Speak A Lot About My Experience</h1>
+            <p>See What I Have In Store...</p>
+        </div>
+        </div>
+    </section>
+    <section>
+        <div class="heading">
+            <h2>Expertise and Accomplishments in the Product Design Field: A Look at My Resume</h2>
+            <p>It highlights my focus on showcasing my specific expertise and accomplishments within the product design field. It suggests that the resume will provide an in-depth look at my skills and experiences in this field, highlighting my strengths and qualifications.</p>
+           <div class="btn-resume">
+            <a class="btn1" href="https://docs.google.com/document/d/1AV4v6KwxXtSdDauXVlVDanFb5c0fjlgVEgR8aMpPDh0/edit#">Download Resume</a>
+           </div>
+        </div>
+    </section>
+    <section>
+        <div class="list">
+            <h3>See My Works</h3>
+            <p>
+                <a class="active" href="#box2">Farm Poject |</a>
+                <a href="#box3">Finance Project |</a> 
+                <a href="#">Real-Estate Project |</a>
+                <a href="#box1"> Web3 Project |</a>
+                <a href="#box4">Technologies Project</a>
+            </p>
+        </div>
+    </section>
+    <section>
+        <div id="box1" class="box1">
+            <div class="img">
+                <img src="./Image/First.jpg" alt="" width="100%" height="100%">
+            </div>
+            <div class="text1">
+                <h5>WEB3 PROJECT</h5>
+                <h2>Designing a Next-Generation E-Learning Experience</h2>
+            <p> This case study focused on the innovative web3 project that I designed "Web3school" and how it has transformed the e-learning experience for students. It higlight my personal experiences in web3 and skills in creating a next-generation e-learning platform for user.</p>
+            <a class="btn1" href="/test/case1.html">See Work</a>
+            </div>
+        </div>
+
+        <div id="box2" class="box2">
+            <div class="text2">
+                <h5>FARM PROJECT</h5>
+                <h2>Innovative Solutions for Modern Farming: A Look into CenterField Farm's Proposal</h2>
+            <p>highlights my role in developing and proposing an innovative solution for modern farming to CenterField Farm. The case study will provide an in-depth look at the proposal, the design process, the challenges I faced and my personal experience in the project.</p>
+            <a class="btn2" href="">Coming Soon</a>
+            </div>
+            <div class="img">
+                <img src="./Image/Farm project.jpg" alt="" width="100%" height="100%">
+            </div>
+        </div>
+
+        <div id="box3" class="box3">
+            <div class="img">
+                <img src="./Image/Joys img 2.jpg" alt="" width="100%" height="100%">
+            </div>
+            <div class="text3">
+                <h5>FINANCE PROJECT</h5>
+                <h2>Streamlining Payments with Finance Platform: A Finance Application</h2>
+            <p>The title suggests that the application will provide an easy, efficient and secure way to handle payments, making it a useful tool for businesses or individuals that need to process financial transactions.</p>
+            <a class="btn3" href="">Coming Soon</a>
+            </div>
+        </div>
+
+        <div id="box4" class="box4">
+            <div class="text4">
+                <h5>TECH PROJECT</h5>
+                <h2>Revolutionizing Online Learning with Joys Academy's Web3 Platform</h2>
+            <p>This highlights my role in designing the web3 platform for Joys Academy and showcases my experience and skills in creating a next-generation learning platform. It also implies that the case study will provide an in-depth look at the design process, the challenges I faced and my personal experience in the project.</p>
+            <a class="btn4" href="">Coimng Soon</a>
+            </div>
+            <div class="img">
+                <img src="./Image/joys img hero.jpg" alt="" width="100%" height="100%">
+            </div>
+        </div>
+        <!-- <div class="more"><h4><a href="">See More ></a></h4></div> -->
+    </section>
+    <footer>
+        <div class="title">
+            <h1>Let's Connect!</h1>
+            <p>
+                <a href="https://www.linkedin.com/in/jays0x">LinkedIn |</a>
+                <a href="https://www.twitter.com/jays0x">Twitter |</a>
+                <a href="https://www.wa.me/+2348060951561">WhatsApp |</a>
+                <a href="https://www.Instagram.com/jaysuiuxdesigns">Instagram</a>
+            </p>
+        </div>
+        <div class="copy">
+            <p>Designed By Jays. All Rigt Reserved.</p>
+        </div>
+    </footer>
+
+
+
+    <script>
+        var menuList = document.getElementById("menuList");
+
+menuList.style.maxHeight = "0px";
+
+function togglemenu(){
+    if( menuList.style.maxHeight == "0px")
+    {
+        menuList.style.maxHeight = "250px";
+    }
+    else{
+        menuList.style.maxHeight = "0px";
+    }
+}
+    </script>
+   
+</body>
+</html>

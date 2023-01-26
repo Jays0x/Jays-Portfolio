@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Page</title>
+    <link rel="icon" href="./Image/JAYS 2-01.png" type="image">
+    <link rel="stylesheet" href="./contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="hero-contact">
+        <div class="glass">
+        <nav>
+            <img src="Image/JAYS 2-01.png">
+            <ul class="nav-link" id="menuList">
+                <li ><a href="/Home/index.html">Home</a></li>
+                <li><a href="/Works/works.html">Works</a></li>
+                <li><a href="/About Page/about.html">About</a></li>
+                <li><a href="https://docs.google.com/document/d/1AV4v6KwxXtSdDauXVlVDanFb5c0fjlgVEgR8aMpPDh0/edit#">Resume</a></li>
+                <li><a href="/Contact Us Page/contact.html">Contact Me</a></li>
+            </ul>
+            <img src="./Image/menu icon2.png" class="menu-icon" onclick="togglemenu()">
+        </nav>
+        <div class="intro">
+            <div class="text">
+                <h1>Contact Me For More Info..</h1>
+            <p>have any questions? kindly send me a message.</p>
+            </div>
+           <div class="con">
+            <form action="#" >
+                <input class="in1" type="text" name="text" placeholder="Full Name">
+
+                <input class="in2" type="email" name="email" placeholder="Type Your Email">
+
+                <textarea name="message" id="send" cols="30" rows="10"></textarea>
+
+                <button>Submit</button>
+            </form>
+           </div>
+        </div>
+        </div>
+
+    </section>
+
+    <script>
+        var menuList = document.getElementById("menuList");
+
+menuList.style.maxHeight = "0px";
+
+function togglemenu(){
+    if( menuList.style.maxHeight == "0px")
+    {
+        menuList.style.maxHeight = "250px";
+    }
+    else{
+        menuList.style.maxHeight = "0px";
+    }
+}
+    </script>
+</body>
+</html>

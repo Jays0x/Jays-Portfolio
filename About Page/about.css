@@ -1,0 +1,680 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body {
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    margin: 20px 150px;
+}
+.nav-link {
+    list-style: none;
+    padding-right: 150px;
+}
+.nav-link li {
+    display: inline-block;
+    padding: 30px 15px;
+}
+.nav-link li a {
+    color: whitesmoke;
+    font-size: 15px;
+}
+.nav-link li a:hover {
+    color: rgb(237, 89, 114);
+}
+.nav-link.active {
+    color: rgb(237, 89, 114);
+    font-weight: 600;
+}
+.menu-icon {
+    height: 30px;
+    width: 30px;
+    margin-top: 0px;
+    display: none;
+    cursor: pointer;
+}
+
+.hero-about {
+    background: url(./Image/About1.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: 100vh;
+}
+.glass {
+    background-color: rgba(0, 0, 0, 0.826);
+    width: 100%;
+    height: 100vh;
+}
+.intro {
+    margin: 150px 0px 0px 180px;
+}
+.intro h1 {
+    color: whitesmoke;
+    font-size: 3rem;
+    text-align: left;
+    width: 380px;
+    margin-bottom: 20px;
+}
+.h1-span {
+    color: rgb(237, 89, 114);
+}
+#my-element {
+    color: rgb(237, 89, 114);
+}
+.intro p {
+    color: whitesmoke;
+    text-transform: capitalize;
+    width: 450px;
+    line-height: 25px;
+}
+/* About Me */
+.about {
+    width: 100%;
+    padding: 50px 16%;
+}
+.about-title {
+    display: flex;
+    justify-content: center;
+}
+.about-title h1 {
+    color: whitesmoke;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+.about p {
+    color: whitesmoke;
+    width: 70%;
+    margin: auto;
+    font-size: 14px;
+    text-align: left;
+    line-height: 18px;
+}
+/* About Me Image */
+.img-library1 {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.img-library2 {
+    display: flex;
+    justify-content: center;
+}
+.about img {
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* Phi */
+.phi-box {
+    margin: 0 350px;
+    padding-bottom: 80px;
+}
+.phi-title {
+    display: flex;
+    justify-content: center;
+}
+.phi-title h1 {
+    color: whitesmoke;
+    margin-bottom: 20px;
+    text-align: center;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+.phi-box h3 {
+    color: rgb(237, 89, 114);
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.phi-box ul {
+    list-style-type: square;
+    list-style-position: outside;
+    color: whitesmoke;
+    font-size: 14px;
+    width: 650px;
+    line-height: 18px;
+}
+
+.phi-box h4 {
+    color: rgba(245, 245, 245, 0.72);
+    font-weight: 300;
+    width: 600px;
+    text-align: left;
+}
+
+/* Hobbies */
+.hobbies-box {
+    display: flex;
+    justify-content: center;
+}
+
+.hobbies-box h1 {
+    color: whitesmoke;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+.all-hobbies {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 220px;
+    padding-bottom: 30px;
+}
+.all-hobbies img {
+    width: 100%;
+    height: 200px;
+}
+.all-hobbies h1 {
+    width: 100%;
+    
+}
+.all-hobbies p {
+    width: 100%;
+    font-size: 14px;
+    color: whitesmoke;
+    line-height: 18px;
+}
+.all-hobbies h1 {
+    width: 100%;
+    color: rgb(237, 89, 114);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.hobbies-one {
+    width: 280px;
+    padding-bottom: 20px;
+}
+.hobbies-two {
+    width: 280px;
+    padding-bottom: 20px;
+}
+.hobbies-three {
+    width: 280px;
+    padding-bottom: 20px;
+}
+/* Skills */
+.skills-box {
+    margin: 0 220px;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.skills-box h1 {
+    color: whitesmoke;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.tt {
+    display: block;
+    justify-content: center;
+}
+.hr {
+    border: 1px solid rgb(237, 89, 114);
+    margin: 0 auto 50px auto;
+    width: 100px;
+}
+/* Cards */
+.flex-card {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 60px;
+}
+.card1 {
+    background-color: #101010;
+    width: 280px;
+    height: 250px;
+    padding: 0 30px;
+}
+.card1 img {
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+.card1 h3 {
+    color: rgb(237, 89, 114);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.card1 p {
+    color: whitesmoke;
+    font-size: 10px;
+    margin-bottom: 30px;
+    line-height: 18px;
+}
+.card1 a {
+    background-color: rgb(237, 89, 114);
+    width: 40px;
+    height: 20px;
+    padding: 10px 30px;
+    font-size: 12px;
+    color: whitesmoke;
+}
+.card2 {
+    background-color: rgb(237, 89, 114);
+    width: 280px;
+    height: 250px;
+    padding: 0 30px;
+}
+.card2 img {
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+.card2 h3 {
+    color: whitesmoke;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.card2 p {
+    color: whitesmoke;
+    font-size: 10px;
+    margin-bottom: 30px;
+    line-height: 18px;
+}
+.card2 a {
+    background-color: black;
+    width: 40px;
+    height: 20px;
+    padding: 10px 30px;
+    font-size: 12px;
+    color: whitesmoke;
+}
+.card3 {
+    background-color: #101010;
+    width: 280px;
+    height: 250px;
+    padding: 0 30px;
+}
+.card3 img {
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+.card3 h3 {
+    color: rgb(237, 89, 114);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.card3 p {
+    color: whitesmoke;
+    font-size: 10px;
+    margin-bottom: 30px;
+    line-height: 18px;
+}
+.card3 a {
+    background-color: rgb(237, 89, 114);
+    width: 40px;
+    height: 20px;
+    padding: 10px 30px;
+    font-size: 12px;
+    color: whitesmoke;
+}
+/* Testimonies */
+.testimonies-box {
+    margin: 0px 250px;
+}
+.test-title {
+    display: flex;
+    justify-content: center;
+}
+.test-title h1 {
+    color: whitesmoke;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+.text-container {
+    display: flex;
+    justify-content: center;
+}
+.test-card {
+    background-color: #101010;
+    width: 600px;
+    height: 300px;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 60px;
+}
+.circle1 {
+    width: 40px;
+    height: 40px;
+    background-color: whitesmoke;
+    border-radius: 100%;
+    border: 2px solid rgb(237, 89, 114);
+}
+.circle1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.circle {
+    width: 40px;
+    height: 40px;
+    background-color: whitesmoke;
+    border-radius: 100%;
+    border: 2px solid rgb(237, 89, 114);
+}
+.circle img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.content-box {
+    display: flex;
+    margin-top: 60px;
+}
+.test-card p {
+    color: whitesmoke;
+    font-size: 12px;
+    line-height: 18px;
+}
+.text-con1 {
+    margin-left: 20px;
+}
+.text-con1 h3 {
+    color: rgb(237, 89, 114);
+}
+.text-con1 p {
+    font-size: 12px;
+    line-height: 18px;
+}
+/* JOYS CON ABOVE */
+
+.text-con {
+    margin-left: 20px;
+}
+.text-con h3 {
+    color: rgb(237, 89, 114);
+}
+.text-con p {
+    font-size: 12px;
+    line-height: 18px;
+}
+/* Footer */
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(237, 89, 114);
+}
+.title {
+    display: block;
+    justify-content: center;
+    padding-top: 80px;
+}
+.title h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 7vmin;
+}
+.title p {
+    text-align: center;
+    margin-bottom: 90px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+}
+.title p a {
+    color: black;
+    text-decoration: none;
+}
+.copy p {
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+@media screen and (max-width: 820px) {
+    .hero-about {
+        width: 100%;
+    }
+    body, html {
+        overflow-x: hidden;
+    }
+    .glass {
+        width: 100%;
+    }
+    nav {
+        width: 100%;
+        position: absolute;
+        padding: 20px 0%;
+        margin: 0;
+    }
+    nav img {
+        margin: 0px 50px;
+    }
+    .nav-link {
+        position: absolute;
+        margin: 70px 0;
+        width: 100%;
+        background-color: rgb(237, 89, 114);
+        height: 250px;
+        right: 0px;
+    }
+    .nav-link li {
+        padding: 20px 10px 0 30px;
+        margin: 0;
+        display: block;
+    }
+    .nav-link li  a:hover {
+        color: black;
+    }
+    .menu-icon {
+        display: block;
+    }
+    #menuList {
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    .intro {
+        margin: 0px 8%;
+        padding-top: 200px;
+    }
+    .intro h1 {
+        width: 100%;
+        margin-top: 150px;
+    }
+    .about {
+        width: 100%;
+        padding: 50px 8%;
+    }
+    .about-title {
+        width: 100%;
+    }
+    .about-title h1 {
+        width: 100%;
+        margin: 20px 100px;
+    }
+    .about p {
+        color: whitesmoke;
+        width: 100%;
+        font-size: 14px;
+        padding: 0px 0px;
+        text-align: center;
+    }
+    .img-library1 {
+        width: 100%;
+    }
+    .img-library2 {
+        width: 100%;
+    }
+    /* Philosophies */
+    .phi-box {
+        width: 100%;
+        margin: 0;
+        padding: 50px 8%;
+    }
+    .phi-title {
+        width: 100%;
+    }
+    .phi-title h1 {
+        width: 100%;
+        margin: 20px 100px;
+    }
+    .phi-box p {
+        color: whitesmoke;
+        width: 100%;
+        font-size: 14px;
+        padding: 0px 0px;
+        text-align: center;
+    }
+    .phi-box ul {
+        width: 100%;
+    }
+    /* Hobbies */
+    .hobbies {
+        width: 100%;
+        flex-direction: column;
+        padding: 0 8%;
+    }
+    .hobbies-box {
+        width: 100%;
+    }
+    .hobbies-box h1 {
+        width: 100%;
+        margin: 20px 100px;
+    }
+    .all-hobbies {
+        display: block;
+        margin: 20px 0%;
+        padding: 0 60px;
+    }
+    /* My Skills */
+    .skills-box {
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+        padding: 20px 8% 0;
+    }
+    .title h1 {
+        width: 100%;
+        margin: 20px 100px;
+    }
+    .flex {
+        display: flex;
+        justify-content: center;
+    }
+    .flex-card {
+        flex-direction: column;
+        width: 100%;
+        margin: 10px 0px;
+        padding: 20px 60px;
+    }
+    .card1, .card2 {
+        margin-bottom: 20px;
+    }
+    /* Testimonies */
+    .testimonies-box {
+        width: 100%;
+        margin: 0;
+        padding: 0px 10%;
+    }
+    .testimonies h1 {
+        width: 100%;
+        margin: 0px 50px 40px ;
+    }
+    .test-card {
+       padding: 50px 50px;
+       margin-bottom: 50px;
+    }
+    .test-card p {
+        font-size: 10px;
+        margin-bottom: -10px;
+    }
+    .text-con
+    .circle {
+        width: 40px;
+        height: 40px;
+        margin-top: 8px;
+    }
+    .content-box {
+        margin-top: 40px;
+    }
+   
+    
+}
+/* Mobile Device */
+@media screen and (max-width: 420px) {
+    .intro h1 {
+        width: 100%;
+        margin-top: 150px;
+    }
+    .intro p {
+        width: 100%;
+    }
+    .about {
+        width: 100%;
+        padding: 50px 8%;
+    }
+    .img-library1 {
+        width: 100%;
+    }
+    .img-library1 img {
+        width: 150px;
+        height: 150px;
+    }
+    .img-library2 {
+        width: 100%;
+    }
+    .img-library2 img {
+        width: 150px;
+        height: 150px;
+    }
+    .all-hobbies {
+        display: block;
+        margin: 20px 0%;
+        padding: 0 8%;
+    }
+    .flex {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    .flex-card {
+        display: block;
+        width: 100%;
+        margin: 10px 0px;
+        padding: 20px 8%;
+    }
+    .circle {
+        width: 40px;
+        height: 40px;
+        margin-top: 8px;
+    }
+    .test-card p {
+        font-size: 12px;
+    }
+    .text-con h3 {
+        font-size: 12px;
+    } 
+    .title h1 {
+        width: 100%;
+    }
+}
